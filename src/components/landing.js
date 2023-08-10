@@ -13,7 +13,10 @@ function Landing() {
         <div className="l-1">
           <nav className="navbar">
             <div className="logo">
-              <Link to="/">Logo</Link>
+              <Link to="/" style={{ color: "white" }}>
+                Career
+              </Link>
+              <Link to="/">Connect</Link>
             </div>
             <ul>
               <li>
@@ -25,7 +28,7 @@ function Landing() {
             </ul>
           </nav>
           <div className="foralign">
-            <div className="main-text">NAME -</div>
+            <div className="main-text">CarrerConnect</div>
             <div className="caption">
               The Heroes of HR team find their Superstars !
             </div>

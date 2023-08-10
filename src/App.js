@@ -1,11 +1,11 @@
 import Landing from "./components/landing";
-import Signin from "./components/signin";
-import Signup from "./components/signup";
+import Signinhr from "./components/signinhr";
+import Signupa from "./components/signupa";
 import Signuphr from "./components/signuphr";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Signupoption from "./components/signupoption";
-import Profile from "./components/profile";
+import Profilehr from "./components/profilehr";
 import Jobdetailsa from "./components/jobdetails-a";
 import Jdrounds from "./components/jd-rounds";
 import Jobposting from "./components/job-posting";
@@ -15,18 +15,20 @@ import Assesment from "./components/assesment";
 import Dashboardhr from "./components/dashboard-hr";
 import Applied from "./components/applied";
 import Profilea from "./components/profile-a";
+import Signina from "./components/signina";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signinhr" element={<Signinhr />} />
+        <Route path="/signina" element={<Signina />} />
+        <Route path="/signupa" element={<Signupa />} />
         <Route path="/signuphr" element={<Signuphr />} />
         <Route path="/signupoption" element={<Signupoption />} />
         <Route path="/job-posting" element={<Jobposting />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profilehr" element={<Profilehr />} />
         <Route path="/jd-rounds" element={<Jdrounds />} />
         <Route path="/jobdetails-a" element={<Jobdetailsa />} />
         <Route path="/dashboard-a" element={<Dashboarda />} />

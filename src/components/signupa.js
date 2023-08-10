@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faUser } from "@fortawesome/free-solid-svg-icons";
-import "./signup.css";
+import "./signupa.css";
 
-function Signup() {
+function Signupa() {
   return (
     <>
       <div className="sup-page">
@@ -174,7 +174,7 @@ function Signup() {
         </div>
         <div className="big-btn">
           <button>
-            <Link to="/dashboard-a">CONTINUE</Link>
+            <Link to="/signina">CONTINUE</Link>
           </button>
         </div>
       </div>
@@ -182,4 +182,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Signupa;

@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faUser } from "@fortawesome/free-solid-svg-icons";
-import "./signuphr.css";
 
-function Signuphr() {
+import "./signin.css";
+import "../App.css";
+function Signina() {
   return (
     <>
       <div className="sin-page">
@@ -24,39 +25,17 @@ function Signuphr() {
         <div className="form-inner">
           <div className="form-group">
             <FontAwesomeIcon icon={faUser} />
-
+            <label htmlfor="email"></label>
             <input
               type="text"
-              id="fname"
-              name="fname"
-              placeholder=" Full Name"
-            />
-          </div>
-          <div className="form-group">
-            <FontAwesomeIcon icon={faUser} />
-
-            <input
-              type="email"
               name="email"
               id="email"
               placeholder="User Name"
             />
           </div>
-
-          <div className="form-group">
-            <FontAwesomeIcon icon={faUser} />
-
-            <input
-              type="tel"
-              id="phno"
-              name="phno"
-              placeholder="Contact Number"
-            />
-          </div>
-
           <div className="form-group">
             <FontAwesomeIcon icon={faLock} />
-
+            <label htmlfor="password"></label>
             <input
               type="password"
               name="password"
@@ -64,19 +43,9 @@ function Signuphr() {
               placeholder="Password.."
             />
           </div>
-          <div className="form-group">
-            <FontAwesomeIcon icon={faUser} />
-
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              placeholder=" Company Name"
-            />
-          </div>
 
           <button className="signinbutton">
-            <Link to="/signinhr">GET STARTED</Link>
+            <Link to="/dashboard-a">GET STARTED</Link>
           </button>
 
           {/* <div className="Forgot_password">
@@ -88,4 +57,4 @@ function Signuphr() {
   );
 }
 
-export default Signuphr;
+export default Signina;

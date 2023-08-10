@@ -11,7 +11,7 @@ function Signupoption() {
           <Link to="/signuphr">Sign up as HR</Link>
         </li>
         <li>
-          <Link to="/signup">Sign up as applicant</Link>
+          <Link to="/signupa">Sign up as applicant</Link>
         </li>
       </ul>
       <button className="returnhome">

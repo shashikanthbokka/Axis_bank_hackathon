@@ -99,7 +99,11 @@ function Jobdetailsa() {
               versions of Lorem Ipsum.
             </div>
             <div className="sfi-line-4-input">
-              <button>APPLY</button>
+              <button>
+                <Link id="link" to="/application">
+                  APPLY
+                </Link>
+              </button>
             </div>
           </div>
         </div>

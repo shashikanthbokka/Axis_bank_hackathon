@@ -32,7 +32,7 @@ function Jdrounds() {
           </div>
           <div className="lp-button">
             <FontAwesomeIcon icon={faUser} className="icon" />
-            <Link id="link" to="/profile">
+            <Link id="link" to="/profilehr">
               Profile
             </Link>
           </div>

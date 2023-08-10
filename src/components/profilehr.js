@@ -11,7 +11,7 @@ import {
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Profile() {
+function Profilehr() {
   return (
     <>
       <div className="dboard-screen">
@@ -34,7 +34,7 @@ function Profile() {
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faUser} className="icon" />{" "}
-              <Link id="link" to="/profile">
+              <Link id="link" to="/profilehr">
                 Profile
               </Link>
             </div>
@@ -110,4 +110,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Profilehr;

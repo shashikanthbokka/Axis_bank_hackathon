@@ -1,15 +1,12 @@
 import React from "react";
 import "./applied.css";
 import { Link } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
   faChartSimple,
   faUser,
   faFile,
-  faBox,
-  faWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import Rpllistitemav from "./rpl-list-item-av";
 

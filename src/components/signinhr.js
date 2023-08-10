@@ -5,7 +5,7 @@ import { faLock, faUser } from "@fortawesome/free-solid-svg-icons";
 
 import "./signin.css";
 import "../App.css";
-function Signin() {
+function Signinhr() {
   return (
     <>
       <div className="sin-page">
@@ -57,4 +57,4 @@ function Signin() {
   );
 }
 
-export default Signin;
+export default Signinhr;
