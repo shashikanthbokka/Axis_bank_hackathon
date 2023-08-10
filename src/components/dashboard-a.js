@@ -1,5 +1,7 @@
 import React from "react";
 import "./dashboard-a.css";
+import { Link } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -17,17 +19,19 @@ function Dashboarda() {
         <div className="left-part">
           <div className="left-align">
             <div className="lp-button">
-              <FontAwesomeIcon icon={faHouse} className="icon" /> Dashboard
+              <FontAwesomeIcon icon={faHouse} className="icon" />{" "}
+              <Link to="/dashboard-a">Dashboard</Link>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faChartSimple} className="icon" />
-              Post A Job
+              <Link to="/job-posting">Post A Job</Link>
             </div>
             <div>
               <p className="lp-text">ACCOUNT PAGES</p>
             </div>
             <div className="lp-button">
-              <FontAwesomeIcon icon={faUser} className="icon" /> Profile
+              <FontAwesomeIcon icon={faUser} className="icon" />{" "}
+              <Link to="/profile">Profile</Link>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faFile} className="icon" /> Sign Out
@@ -36,7 +40,7 @@ function Dashboarda() {
         </div>
         <div className="right-part">
           <div className="rp-upper">
-            <p>Profile</p>
+            <p>Dashboard</p>
           </div>
           <div className="rp-middle">
             <div className="rpm-align">
@@ -84,7 +88,9 @@ function Dashboarda() {
                   </p>
                 </div>
                 <div className="part-4">
-                  <button>Apply</button>
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
                 </div>
                 <div className="part-5">
                   <p>
@@ -110,7 +116,9 @@ function Dashboarda() {
                   </p>
                 </div>
                 <div className="part-4">
-                  <button>Apply</button>
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
                 </div>
                 <div className="part-5">
                   <p>
@@ -136,7 +144,9 @@ function Dashboarda() {
                   </p>
                 </div>
                 <div className="part-4">
-                  <button>Apply</button>
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
                 </div>
                 <div className="part-5">
                   <p>
@@ -162,7 +172,9 @@ function Dashboarda() {
                   </p>
                 </div>
                 <div className="part-4">
-                  <button>Apply</button>
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
                 </div>
                 <div className="part-5">
                   <p>
@@ -188,7 +200,9 @@ function Dashboarda() {
                   </p>
                 </div>
                 <div className="part-4">
-                  <button>Apply</button>
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
                 </div>
                 <div className="part-5">
                   <p>
@@ -214,7 +228,37 @@ function Dashboarda() {
                   </p>
                 </div>
                 <div className="part-4">
-                  <button>Apply</button>
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
+                </div>
+                <div className="part-5">
+                  <p>
+                    <b>Status :</b> Selected for Round 1
+                  </p>
+                </div>
+              </div>
+              <div className="rpl-list-item-1">
+                <div className="part-1">
+                  <p>Company Name</p>
+                </div>
+                <div className="part-2">
+                  <h2>Role</h2>
+                </div>
+                <div className="part-3">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting.
+                  </p>
+                </div>
+                <div className="part-4">
+                  <button>
+                    <Link to="/application">Apply</Link>
+                  </button>
                 </div>
                 <div className="part-5">
                   <p>

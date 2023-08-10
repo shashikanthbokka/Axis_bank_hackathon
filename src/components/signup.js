@@ -65,7 +65,7 @@ function Signup() {
             />
           </div>
 
-          <button className="signupbutton">CONTINUE</button>
+          {/* <button className="signupbutton">CONTINUE</button> */}
         </div>
       </div>
       <div className="full-form">
@@ -173,7 +173,9 @@ function Signup() {
           </div>
         </div>
         <div className="big-btn">
-          <button>CONTINUE</button>
+          <button>
+            <Link to="/signin">CONTINUE</Link>
+          </button>
         </div>
       </div>
     </>

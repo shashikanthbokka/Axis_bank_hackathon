@@ -44,7 +44,9 @@ function Signin() {
             />
           </div>
 
-          <button className="signinbutton">GET STARTED</button>
+          <button className="signinbutton">
+            <Link to="/dashboard-a">GET STARTED</Link>
+          </button>
 
           {/* <div className="Forgot_password">
             <button className="Forgot_password"></button>

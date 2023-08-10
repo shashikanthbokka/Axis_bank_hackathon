@@ -1,6 +1,7 @@
 import React from "react";
-import "./profile.css";
+import "./dashboard-a.css";
 import { Link } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -10,8 +11,9 @@ import {
   faBox,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
+import Rpllistitem from "./rpl-list-item";
 
-function Profile() {
+function Dashboardhr() {
   return (
     <>
       <div className="dboard-screen">
@@ -39,7 +41,7 @@ function Profile() {
         </div>
         <div className="right-part">
           <div className="rp-upper">
-            <p>Profile</p>
+            <p>Dashboard</p>
           </div>
           <div className="rp-middle">
             <div className="rpm-align">
@@ -52,7 +54,7 @@ function Profile() {
               </div>
             </div>
             <div>
-              <div className="rpm-buttons">
+              {/* <div className="rpm-buttons">
                 <div className="rpm-full-btn">
                   <FontAwesomeIcon icon={faBox} className="icon1" />{" "}
                   <button>Overview</button>
@@ -61,41 +63,50 @@ function Profile() {
                   <FontAwesomeIcon icon={faWrench} className="icon1" />{" "}
                   <button>Edit</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="rp-lower">
             <div className="rpl-heading">
-              <h3>Profile Information</h3>
+              <h3>All Jobs</h3>
             </div>
             <div className="rpl-list-items">
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
-              <div className="rpl-list-item">
-                <b>lorem ipsum :</b> lorem ipsum
-              </div>
+              {/* <div className="rpl-list-item-1">
+                <div className="part-1">
+                  <p>Company Name</p>
+                </div>
+                <div className="part-2">
+                  <h2>Role</h2>
+                </div>
+                <div className="part-3">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting.
+                  </p>
+                </div>
+                <div className="part-4">
+                  <button>
+                    <Link to="/jd-rounds">Apply</Link>
+                  </button>
+                </div>
+                <div className="part-5">
+                  <p>
+                    <b>Status :</b> Selected for Round 1
+                  </p>
+                </div>
+              </div> */}
+              <Rpllistitem />
+              <Rpllistitem />
+              <Rpllistitem />
+              <Rpllistitem />
+              <Rpllistitem />
+              <Rpllistitem />
+              <Rpllistitem />
+              <Rpllistitem />
             </div>
           </div>
         </div>
@@ -104,4 +115,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Dashboardhr;

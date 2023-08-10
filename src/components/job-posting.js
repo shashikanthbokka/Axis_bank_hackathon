@@ -1,5 +1,6 @@
 import React from "react";
 import "./job-posting.css";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -14,17 +15,19 @@ function Jobposting() {
       <div className="left-part">
         <div className="left-align">
           <div className="lp-button">
-            <FontAwesomeIcon icon={faHouse} className="icon" /> Dashboard
+            <FontAwesomeIcon icon={faHouse} className="icon" />{" "}
+            <Link to="/dashboard-hr">Dashboard</Link>
           </div>
           <div className="lp-button">
             <FontAwesomeIcon icon={faChartSimple} className="icon" />
-            Post A Job
+            <Link to="/job-posting">Post A Job</Link>
           </div>
           <div>
             <p className="lp-text">ACCOUNT PAGES</p>
           </div>
           <div className="lp-button">
-            <FontAwesomeIcon icon={faUser} className="icon" /> Profile
+            <FontAwesomeIcon icon={faUser} className="icon" />{" "}
+            <Link to="/profile">Profile</Link>
           </div>
           <div className="lp-button">
             <FontAwesomeIcon icon={faFile} className="icon" /> Sign Out

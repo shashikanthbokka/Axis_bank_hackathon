@@ -10,6 +10,9 @@ import Jobdetailsa from "./components/jobdetails-a";
 import Jdrounds from "./components/jd-rounds";
 import Jobposting from "./components/job-posting";
 import Dashboarda from "./components/dashboard-a";
+import Application from "./components/application";
+import Assesment from "./components/assesment";
+import Dashboardhr from "./components/dashboard-hr";
 
 function App() {
   return (
@@ -24,7 +27,10 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/jd-rounds" element={<Jdrounds />} />
         <Route path="/jobdetails-a" element={<Jobdetailsa />} />
-        <Route path="/" element={<Dashboarda />} />
+        <Route path="/dashboard-a" element={<Dashboarda />} />
+        <Route path="/" element={<Application />} />
+        <Route path="/assesment" element={<Assesment />} />
+        <Route path="/dashboard-hr" element={<Dashboardhr />} />
       </Routes>
     </>
   );
