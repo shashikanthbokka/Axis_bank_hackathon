@@ -8,6 +8,8 @@ import {
   faFile,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+
 function Jdrounds() {
   return (
     <div className="dboard-screen">
@@ -27,7 +29,8 @@ function Jdrounds() {
             <FontAwesomeIcon icon={faUser} className="icon" /> Profile
           </div>
           <div className="lp-button">
-            <FontAwesomeIcon icon={faFile} className="icon" /> Sign Out
+            <FontAwesomeIcon icon={faFile} className="icon" />
+            <Link to="/">Sign Out</Link>
           </div>
         </div>
       </div>

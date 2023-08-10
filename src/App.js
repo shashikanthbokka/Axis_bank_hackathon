@@ -9,12 +9,13 @@ import Profile from "./components/profile";
 import Jobdetailsa from "./components/jobdetails-a";
 import Jdrounds from "./components/jd-rounds";
 import Jobposting from "./components/job-posting";
+import Dashboarda from "./components/dashboard-a";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        {/* <Route path="/" element={<Landing />} /> */}
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/signuphr" element={<Signuphr />} />
@@ -23,6 +24,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/jd-rounds" element={<Jdrounds />} />
         <Route path="/jobdetails-a" element={<Jobdetailsa />} />
+        <Route path="/" element={<Dashboarda />} />
       </Routes>
     </>
   );
