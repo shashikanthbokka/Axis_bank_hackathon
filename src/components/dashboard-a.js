@@ -20,18 +20,24 @@ function Dashboarda() {
           <div className="left-align">
             <div className="lp-button">
               <FontAwesomeIcon icon={faHouse} className="icon" />{" "}
-              <Link to="/dashboard-a">Dashboard</Link>
+              <Link id="link" to="/dashboard-a">
+                Dashboard
+              </Link>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faChartSimple} className="icon" />
-              <Link to="/job-posting">Post A Job</Link>
+              <Link id="link" to="/job-posting">
+                Post A Job
+              </Link>
             </div>
             <div>
               <p className="lp-text">ACCOUNT PAGES</p>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faUser} className="icon" />{" "}
-              <Link to="/profile">Profile</Link>
+              <Link id="link" to="/profile">
+                Profile
+              </Link>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faFile} className="icon" /> Sign Out

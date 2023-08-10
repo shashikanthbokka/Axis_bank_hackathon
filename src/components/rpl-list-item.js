@@ -20,7 +20,7 @@ function Rpllistitem() {
       </div>
       <div className="part-4">
         <button>
-          <Link to="/jd-rounds">Apply</Link>
+          <Link to="/jd-rounds">View</Link>
         </button>
       </div>
       <div className="part-5">

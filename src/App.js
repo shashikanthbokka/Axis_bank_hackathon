@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={<Landing />} /> */}
+        <Route path="/" element={<Landing />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/signuphr" element={<Signuphr />} />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/jd-rounds" element={<Jdrounds />} />
         <Route path="/jobdetails-a" element={<Jobdetailsa />} />
         <Route path="/dashboard-a" element={<Dashboarda />} />
-        <Route path="/" element={<Application />} />
+        <Route path="/application" element={<Application />} />
         <Route path="/assesment" element={<Assesment />} />
         <Route path="/dashboard-hr" element={<Dashboardhr />} />
       </Routes>
