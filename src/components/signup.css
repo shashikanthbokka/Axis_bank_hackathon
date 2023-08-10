@@ -131,6 +131,16 @@
   font-weight: 600;
   color: var(--thewhite);
 }
+#clgyear::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+#passout::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
 .sfi-line-4 {
   display: flex;
 }

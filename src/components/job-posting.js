@@ -38,55 +38,69 @@ function Jobposting() {
         <div className="rp-form">
           <h1>Job Details</h1>
           <div className="rp-form-inner">
-            <div className="sfi-line-1">
+            <div className="rp-line-1">
               <FontAwesomeIcon icon={faUser} />
 
               <input
                 type="text"
                 id="jobtitle"
-                placeholder="Job Title/Job Role"
+                placeholder="Job Title/Job Role *"
               />
             </div>
-            <div className="sfi-line-2">
-              <div className="sfi-line-2-input">
+            <div className="rp-line-2">
+              <div className="rp-line-2-input">
                 <FontAwesomeIcon icon={faUser} />
 
-                <input type="text" id="majorsub" placeholder="Major Subject" />
+                <input type="text" id="package" placeholder="Package *" />
               </div>
-              <div className="sfi-line-2-input">
+              <div className="rp-line-2-input">
                 <FontAwesomeIcon icon={faUser} />
 
-                <input type="text" id="cgpa" placeholder="CGPA" />
-              </div>
-            </div>
-            <div className="sfi-line-3">
-              <div className="sfi-line-2-input">
-                <FontAwesomeIcon icon={faUser} />
-
-                <input type="text" id="majorsub" placeholder="College Year" />
-              </div>
-              <div className="sfi-line-2-input">
-                <FontAwesomeIcon icon={faUser} />
-
-                <input type="text" id="cgpa" placeholder="Passing Out Year" />
+                <input
+                  type="text"
+                  id="noofint"
+                  placeholder="Application Limit *"
+                />
               </div>
             </div>
-            <div className="sfi-line-1">
+            <div className="rp-line-3">
+              <div className="rp-line-2-input">
+                <FontAwesomeIcon icon={faUser} />
+
+                <input type="text" id="expcgpa" placeholder="Expected CGPA *" />
+              </div>
+              <div className="rp-line-2-input">
+                <FontAwesomeIcon icon={faUser} />
+
+                <input
+                  type="text"
+                  id="noofopen"
+                  placeholder="Number of Jobs *"
+                />
+              </div>
+            </div>
+            <div className="rp-line-1 rp-line-btn">
               <FontAwesomeIcon icon={faUser} />
 
-              <input type="text" id="degree" placeholder=" Degree" />
+              <input type="text" id="jd" placeholder=" Job Description *" />
+              <div className="rp-line-4-input">
+                <button>ENHANCE</button>
+              </div>
             </div>
-            <div className="sfi-line-1 ">
+            <div className="rp-line-1 ">
               <FontAwesomeIcon icon={faUser} />
 
-              <input type="text" id="degree" placeholder=" Degree" />
-              <button>Enhance</button>
+              <input
+                type="text"
+                id="eligibility"
+                placeholder=" Eligibility Criteria"
+              />
             </div>
-            <div className="sfi-line-4">
-              <div className="sfi-line-4-input">
+            <div className="rp-line-4">
+              <div className="rp-line-4-input">
                 <button>ADD</button>
               </div>
-              <div className="sfi-line-4-input">
+              <div className="rp-line-4-input">
                 <button>SAVE</button>
               </div>
             </div>

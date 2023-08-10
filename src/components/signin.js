@@ -18,7 +18,7 @@ function Signin() {
               <Link to="/signin">Sign in</Link>
             </li>
             <li>
-              <Link to="/signup">Sign up</Link>
+              <Link to="/signupoption">Sign up</Link>
             </li>
           </ul>
         </nav>

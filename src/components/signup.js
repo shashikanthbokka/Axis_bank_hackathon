@@ -17,7 +17,7 @@ function Signup() {
               <Link to="/signin">Sign in</Link>
             </li>
             <li>
-              <Link to="/signup">Sign up</Link>
+              <Link to="/signupoption">Sign up</Link>
             </li>
           </ul>
         </nav>
@@ -94,12 +94,16 @@ function Signup() {
               <div className="sfi-line-2-input">
                 <FontAwesomeIcon icon={faUser} />
 
-                <input type="text" id="majorsub" placeholder="College Year" />
+                <input type="text" id="clgyear" placeholder="College Year" />
               </div>
               <div className="sfi-line-2-input">
                 <FontAwesomeIcon icon={faUser} />
 
-                <input type="text" id="cgpa" placeholder="Passing Out Year" />
+                <input
+                  type="text"
+                  id="passout"
+                  placeholder="Passing Out Year"
+                />
               </div>
             </div>
             <div className="sfi-line-4">

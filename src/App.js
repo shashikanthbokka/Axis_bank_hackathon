@@ -19,6 +19,10 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/signuphr" element={<Signuphr />} />
         <Route path="/signupoption" element={<Signupoption />} />
+        <Route path="/job-posting" element={<Jobposting />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/jd-rounds" element={<Jdrounds />} />
+        <Route path="/jobdetails-a" element={<Jobdetailsa />} />
       </Routes>
     </>
   );
