@@ -1,7 +1,6 @@
 import React from "react";
-import "./dashboard-a.css";
+import "./profile.css";
 import { Link } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -11,9 +10,8 @@ import {
   faBox,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
-import Rpllistitemhr from "./rpl-list-item-hr";
 
-function Dashboardhr() {
+function Profilea() {
   return (
     <>
       <div className="dboard-screen">
@@ -21,14 +19,20 @@ function Dashboardhr() {
           <div className="left-align">
             <div className="lp-button">
               <FontAwesomeIcon icon={faHouse} className="icon" />{" "}
-              <Link id="link" to="/dashboard-hr">
+              <Link id="link" to="/dashboard-a">
                 Dashboard
               </Link>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faChartSimple} className="icon" />
-              <Link id="link" to="/job-posting">
-                Post A Job
+              <Link id="link" to="/applied">
+                Applications
+              </Link>
+            </div>
+            <div className="lp-button">
+              <FontAwesomeIcon icon={faChartSimple} className="icon" />
+              <Link id="link" to="/assesment">
+                Assesments
               </Link>
             </div>
             <div>
@@ -36,7 +40,7 @@ function Dashboardhr() {
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faUser} className="icon" />{" "}
-              <Link id="link" to="/profile">
+              <Link id="link" to="/profile-a">
                 Profile
               </Link>
             </div>
@@ -47,7 +51,7 @@ function Dashboardhr() {
         </div>
         <div className="right-part">
           <div className="rp-upper">
-            <p>Dashboard</p>
+            <p>Profile</p>
           </div>
           <div className="rp-middle">
             <div className="rpm-align">
@@ -60,7 +64,7 @@ function Dashboardhr() {
               </div>
             </div>
             <div>
-              {/* <div className="rpm-buttons">
+              <div className="rpm-buttons">
                 <div className="rpm-full-btn">
                   <FontAwesomeIcon icon={faBox} className="icon1" />{" "}
                   <button>Overview</button>
@@ -69,22 +73,41 @@ function Dashboardhr() {
                   <FontAwesomeIcon icon={faWrench} className="icon1" />{" "}
                   <button>Edit</button>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="rp-lower">
             <div className="rpl-heading">
-              <h3>All Jobs</h3>
+              <h3>Profile Information</h3>
             </div>
             <div className="rpl-list-items">
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
+              <div className="rpl-list-item">
+                <b>lorem ipsum :</b> lorem ipsum
+              </div>
             </div>
           </div>
         </div>
@@ -93,4 +116,4 @@ function Dashboardhr() {
   );
 }
 
-export default Dashboardhr;
+export default Profilea;

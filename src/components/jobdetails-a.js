@@ -22,8 +22,14 @@ function Jobdetailsa() {
           </div>
           <div className="lp-button">
             <FontAwesomeIcon icon={faChartSimple} className="icon" />
-            <Link id="link" to="/job-posting">
-              Post A Job
+            <Link id="link" to="/applied">
+              Applications
+            </Link>
+          </div>
+          <div className="lp-button">
+            <FontAwesomeIcon icon={faChartSimple} className="icon" />
+            <Link id="link" to="/assesment">
+              Assesments
             </Link>
           </div>
           <div>
@@ -31,7 +37,7 @@ function Jobdetailsa() {
           </div>
           <div className="lp-button">
             <FontAwesomeIcon icon={faUser} className="icon" />{" "}
-            <Link id="link" to="/profile">
+            <Link id="link" to="/profile-a">
               Profile
             </Link>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./dashboard-a.css";
+import "./applied.css";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,9 +11,9 @@ import {
   faBox,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
-import Rpllistitemhr from "./rpl-list-item-hr";
+import Rpllistitemav from "./rpl-list-item-av";
 
-function Dashboardhr() {
+function Applied() {
   return (
     <>
       <div className="dboard-screen">
@@ -21,22 +21,29 @@ function Dashboardhr() {
           <div className="left-align">
             <div className="lp-button">
               <FontAwesomeIcon icon={faHouse} className="icon" />{" "}
-              <Link id="link" to="/dashboard-hr">
+              <Link id="link" to="/dashboard-a">
                 Dashboard
               </Link>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faChartSimple} className="icon" />
-              <Link id="link" to="/job-posting">
-                Post A Job
+              <Link id="link" to="/applied">
+                Applications
               </Link>
             </div>
+            <div className="lp-button">
+              <FontAwesomeIcon icon={faChartSimple} className="icon" />
+              <Link id="link" to="/assesment">
+                Assesments
+              </Link>
+            </div>
+
             <div>
               <p className="lp-text">ACCOUNT PAGES</p>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faUser} className="icon" />{" "}
-              <Link id="link" to="/profile">
+              <Link id="link" to="/profile-a">
                 Profile
               </Link>
             </div>
@@ -49,7 +56,7 @@ function Dashboardhr() {
           <div className="rp-upper">
             <p>Dashboard</p>
           </div>
-          <div className="rp-middle">
+          {/* <div className="rp-middle">
             <div className="rpm-align">
               <div className="rpm-pic">
                 <img src="/assets/Image.png" />
@@ -59,8 +66,8 @@ function Dashboardhr() {
                 <p>shashikanthb13@gmail.com</p>
               </div>
             </div>
-            <div>
-              {/* <div className="rpm-buttons">
+            <div> */}
+          {/* <div className="rpm-buttons">
                 <div className="rpm-full-btn">
                   <FontAwesomeIcon icon={faBox} className="icon1" />{" "}
                   <button>Overview</button>
@@ -70,21 +77,20 @@ function Dashboardhr() {
                   <button>Edit</button>
                 </div>
               </div> */}
-            </div>
-          </div>
+          {/* </div>
+          </div> */}
           <div className="rp-lower">
             <div className="rpl-heading">
-              <h3>All Jobs</h3>
+              <h3>All applied Jobs</h3>
             </div>
             <div className="rpl-list-items">
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
-              <Rpllistitemhr />
+              <Rpllistitemav />
+              <Rpllistitemav />
+              <Rpllistitemav />
+              <Rpllistitemav />
+              <Rpllistitemav />
+              <Rpllistitemav />
+              <Rpllistitemav />
             </div>
           </div>
         </div>
@@ -93,4 +99,4 @@ function Dashboardhr() {
   );
 }
 
-export default Dashboardhr;
+export default Applied;

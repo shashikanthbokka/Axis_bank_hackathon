@@ -11,6 +11,7 @@ import {
   faBox,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
+import Rpllistitema from "./rpl-list-item-a";
 
 function Dashboarda() {
   return (
@@ -26,16 +27,23 @@ function Dashboarda() {
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faChartSimple} className="icon" />
-              <Link id="link" to="/job-posting">
-                Post A Job
+              <Link id="link" to="/applied">
+                Applications
               </Link>
             </div>
+            <div className="lp-button">
+              <FontAwesomeIcon icon={faChartSimple} className="icon" />
+              <Link id="link" to="/assesment">
+                Assesments
+              </Link>
+            </div>
+
             <div>
               <p className="lp-text">ACCOUNT PAGES</p>
             </div>
             <div className="lp-button">
               <FontAwesomeIcon icon={faUser} className="icon" />{" "}
-              <Link id="link" to="/profile">
+              <Link id="link" to="/profile-a">
                 Profile
               </Link>
             </div>
@@ -76,202 +84,13 @@ function Dashboarda() {
               <h3>All Jobs</h3>
             </div>
             <div className="rpl-list-items">
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
-              <div className="rpl-list-item-1">
-                <div className="part-1">
-                  <p>Company Name</p>
-                </div>
-                <div className="part-2">
-                  <h2>Role</h2>
-                </div>
-                <div className="part-3">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting.
-                  </p>
-                </div>
-                <div className="part-4">
-                  <button>
-                    <Link to="/application">Apply</Link>
-                  </button>
-                </div>
-                <div className="part-5">
-                  <p>
-                    <b>Status :</b> Selected for Round 1
-                  </p>
-                </div>
-              </div>
+              <Rpllistitema />
+              <Rpllistitema />
+              <Rpllistitema />
+              <Rpllistitema />
+              <Rpllistitema />
+              <Rpllistitema />
+              <Rpllistitema />
             </div>
           </div>
         </div>

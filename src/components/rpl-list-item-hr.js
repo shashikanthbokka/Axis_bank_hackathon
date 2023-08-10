@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function Rpllistitem() {
+function Rpllistitemhr() {
   return (
     <div className="rpl-list-item-1">
       <div className="part-1">
@@ -32,4 +32,4 @@ function Rpllistitem() {
   );
 }
 
-export default Rpllistitem;
+export default Rpllistitemhr;

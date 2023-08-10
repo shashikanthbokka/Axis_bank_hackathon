@@ -174,7 +174,7 @@ function Signup() {
         </div>
         <div className="big-btn">
           <button>
-            <Link to="/signin">CONTINUE</Link>
+            <Link to="/dashboard-a">CONTINUE</Link>
           </button>
         </div>
       </div>

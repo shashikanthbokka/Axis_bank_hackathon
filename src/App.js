@@ -13,6 +13,8 @@ import Dashboarda from "./components/dashboard-a";
 import Application from "./components/application";
 import Assesment from "./components/assesment";
 import Dashboardhr from "./components/dashboard-hr";
+import Applied from "./components/applied";
+import Profilea from "./components/profile-a";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/application" element={<Application />} />
         <Route path="/assesment" element={<Assesment />} />
         <Route path="/dashboard-hr" element={<Dashboardhr />} />
+        <Route path="/applied" element={<Applied />} />
+        <Route path="/profile-a" element={<Profilea />} />
       </Routes>
     </>
   );

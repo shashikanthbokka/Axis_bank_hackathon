@@ -17,7 +17,7 @@ function Jdrounds() {
         <div className="left-align">
           <div className="lp-button">
             <FontAwesomeIcon icon={faHouse} className="icon" />{" "}
-            <Link id="link" to="/dashboard-a">
+            <Link id="link" to="/dashboard-hr">
               Dashboard
             </Link>
           </div>
