@@ -1,0 +1,84 @@
+.rp-form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rp-form-inner {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.rp-form-inner h3 {
+  margin-bottom: 1rem;
+}
+.sfi-line-1 {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0.5rem 0 0.5rem 0;
+  border-radius: 2rem;
+}
+#jobtitle {
+  display: flex;
+  padding: 1.25rem 50vw 1.25rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+#jobtitle::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--theblack);
+}
+.sfi-line-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.sfi-line-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.sfi-line-2-input {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  border-radius: 2rem;
+  padding: 0 1.5rem;
+  color: var(--theblack);
+}
+.sfi-line-2-input input {
+  padding: 1.25rem 9rem 1.25rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+#cgpa::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--theblack);
+}
+#majorsub::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--theblack);
+}
+.sfi-line-4 {
+  display: flex;
+}
+.sfi-line-4-input button {
+  background-color: var(--thepop);
+  display: flex;
+  align-items: center;
+  margin: 1rem 3rem 1rem 0rem;
+  border-radius: 2rem;
+  padding: 1rem 7rem;
+  border: none;
+  color: var(--theblack);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sfi-line-4-input button:hover {
+  background-color: var(--thewhite);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
