@@ -1,5 +1,8 @@
 /* navbar and l-1 are combined */
 /* navbar */
+#logo {
+  height: 5rem;
+}
 .navbar {
   display: flex;
   justify-content: space-between;

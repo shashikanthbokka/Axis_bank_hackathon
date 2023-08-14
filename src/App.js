@@ -16,12 +16,14 @@ import Dashboardhr from "./components/dashboard-hr";
 import Applied from "./components/applied";
 import Profilea from "./components/profile-a";
 import Signina from "./components/signina";
+import Signinoption from "./components/signinoption";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/signinoption" element={<Signinoption />} />
         <Route path="/signinhr" element={<Signinhr />} />
         <Route path="/signina" element={<Signina />} />
         <Route path="/signupa" element={<Signupa />} />

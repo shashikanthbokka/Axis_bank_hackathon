@@ -10,7 +10,9 @@ function Signuphr() {
       <div className="sin-page">
         <nav className="navbar-1">
           <div className="logo-1">
-            <Link to="/">Logo</Link>
+            <Link to="/">
+              <img id="logo" src="/assets/axisbank-logo.png" />
+            </Link>
           </div>
           <ul>
             <li>

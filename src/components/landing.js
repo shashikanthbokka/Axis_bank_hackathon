@@ -13,14 +13,17 @@ function Landing() {
         <div className="l-1">
           <nav className="navbar">
             <div className="logo">
-              <Link to="/" style={{ color: "white" }}>
+              {/* <Link to="/" style={{ color: "white" }}>
                 Career
               </Link>
-              <Link to="/">Connect</Link>
+              <Link to="/">Connect</Link> */}
+              <Link to="/">
+                <img id="logo" src="/assets/axisbank-logo.png" />
+              </Link>
             </div>
             <ul>
               <li>
-                <Link to="/signin">Sign in</Link>
+                <Link to="/signinoption">Sign in</Link>
               </li>
               <li>
                 <Link to="/signupoption">Sign up</Link>
@@ -74,7 +77,11 @@ function Landing() {
           </p>
           <div className="l-button">
             <div className="l-3-btn last-btn">
-              <p>Get Started</p>
+              <p>
+                <Link to="/signuphr">
+                  <p>Get Started</p>
+                </Link>
+              </p>
               <FontAwesomeIcon icon={faChevronRight} />
             </div>
           </div>
@@ -84,7 +91,9 @@ function Landing() {
           </p>
           <div className="l-button">
             <div className="l-3-btn last-btn-2">
-              <p>Get Started</p>
+              <Link to="/signupa">
+                <p>Get Started</p>
+              </Link>
               <FontAwesomeIcon icon={faChevronRight} />
             </div>
           </div>
