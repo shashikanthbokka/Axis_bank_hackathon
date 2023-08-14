@@ -19,6 +19,7 @@
   border-radius: 0.5rem;
   color: rgba(79, 209, 197, 1);
   font-weight: 600;
+  margin-right: 1rem;
 }
 #link {
   color: var(--theinputgrey);

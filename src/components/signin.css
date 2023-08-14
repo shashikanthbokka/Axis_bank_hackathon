@@ -107,3 +107,9 @@
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
+.signinbutton a {
+  color: black;
+}
+.signinbutton:hover > a {
+  color: black;
+}

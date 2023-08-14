@@ -29,3 +29,9 @@
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+.sfi-line-4-input a {
+  color: black;
+}
+.sfi-line-4-input button:hover > a {
+  color: var(--thepop);
+}

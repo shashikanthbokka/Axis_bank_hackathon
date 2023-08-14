@@ -178,3 +178,6 @@
   background-color: var(--thewhite);
   transition: 0.3s ease-in-out;
 }
+.big-btn a {
+  color: black;
+}

@@ -76,7 +76,7 @@ function Landing() {
             of your HR team.
           </p>
           <div className="l-button">
-            <div className="l-3-btn last-btn">
+            <div className="l-3-btn last-btn white">
               <p>
                 <Link to="/signuphr">
                   <p>Get Started</p>

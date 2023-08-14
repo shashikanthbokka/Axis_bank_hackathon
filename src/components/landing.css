@@ -183,13 +183,20 @@
   background-color: var(--thewhite);
   color: var(--thegrey);
 }
+.last-btn a {
+  color: var(--thegrey);
+}
+.white :hover > a {
+  color: white;
+}
 .last-btn:hover {
   transition: 0.3s ease-in-out;
-  padding: calc(6vh-6px) 5vw;
+
   background-color: var(--thegrey);
   border: 1px solid var(--thewhite);
   color: var(--thewhite);
 }
+
 .last-btn-2 {
   display: flex;
   justify-content: space-between;
@@ -198,8 +205,14 @@
   color: var(--thewhite);
   border: 3px solid var(--thewhite);
 }
+.last-btn-2 a {
+  color: var(--thewhite);
+}
 .last-btn-2:hover {
   transition: 0.3s ease-in-out;
   background-color: var(--thewhite);
+  color: var(--thegrey);
+}
+.last-btn-2:hover > a {
   color: var(--thegrey);
 }

@@ -17,7 +17,7 @@ function Signina() {
           </div>
           <ul>
             <li>
-              <Link to="/signin">Sign in</Link>
+              <Link to="/signinoption">Sign in</Link>
             </li>
             <li>
               <Link to="/signupoption">Sign up</Link>

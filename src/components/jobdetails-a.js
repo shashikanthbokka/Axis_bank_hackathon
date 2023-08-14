@@ -100,7 +100,7 @@ function Jobdetailsa() {
             </div>
             <div className="sfi-line-4-input">
               <button>
-                <Link id="link" to="/application">
+                <Link className="ap-btn" to="/application">
                   APPLY
                 </Link>
               </button>

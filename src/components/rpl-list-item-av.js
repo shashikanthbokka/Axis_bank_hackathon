@@ -22,6 +22,9 @@ function Rpllistitemav() {
         <button>
           <Link to="/jobdetails-a">View</Link>
         </button>
+        <button>
+          <Link to="/assesment">Assesment</Link>
+        </button>
       </div>
       <div className="part-5">
         <p>
